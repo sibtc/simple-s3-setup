@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  background-color: #f1f1f1;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.container {
+  width: 80%;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  padding: 20px;
+  margin: 40px auto;
+}
+
+form {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ff9900;
+  width: 350px;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+table td,
+table th {
+  border: 1px solid #eceeef;
+  padding: 5px 8px;
+  text-align: left;
+}
+table thead {
+  border-bottom: 2px solid #eceeef;
+}

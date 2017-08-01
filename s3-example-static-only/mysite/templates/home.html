@@ -1,0 +1,20 @@
+{% load static %}<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>S3 Example Static Only</title>
+  <link rel="stylesheet" type="text/css" href="{% static 'css/app.css' %}">
+</head>
+<body>
+  <header>
+    <h1>S3 Example Static Only</h1>
+  </header>
+  <main>
+    <img src="{% static 'img/thumbs-up.png' %}">
+    <h2>It's working!</h2>
+  </main>
+  <footer>
+    <a href="https://simpleisbetterthancomplex.com">www.SimpleIsBetterThanComplex.com</a>
+  </footer>
+</body>
+</html>

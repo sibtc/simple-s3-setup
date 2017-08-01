@@ -1,0 +1,4 @@
+boto3==1.4.4
+Django==1.11.2
+django-storages==1.6.1
+python-decouple==3.0

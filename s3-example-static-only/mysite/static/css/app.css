@@ -1,0 +1,28 @@
+body {
+  margin: 0 auto;
+  width: 800px;
+  font-family: "HelveticaNeue", Helvetica, Arial, sans-serif;
+}
+
+header {
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+}
+
+header h1 {
+  margin: 0;
+}
+
+main {
+  padding: 20px 0;
+  text-align: center;
+}
+
+main h2 {
+  color: green;
+}
+
+footer {
+  border-top: 1px solid #ccc;
+  padding: 10px 0;
+}

@@ -1,0 +1,22 @@
+{% load static %}<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Amazon S3 Example - Simple is Better Than Complex</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/app.css' %}">
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Amazon S3 Example</h1>
+        <hr>
+        <a href="{% url 'home' %}">Public Uploads</a>
+        <hr>
+      </header>
+      <main>
+        {% block content %}
+        {% endblock %}
+      </main>
+    </div>
+  </body>
+</html>
